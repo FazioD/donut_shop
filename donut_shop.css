@@ -1,0 +1,150 @@
+body {
+  background-color: #000D0C;
+  margin-top: 70px;
+  width: 90%;
+}
+
+/*text*/
+h1 {
+  color: #000000;
+  font-family: "Special Elite", sans-serif;
+  text-align: center;
+  font-size: 48px;
+}
+
+/*table*/
+td {
+  padding: 15px;
+}
+
+#table-padding{
+  padding-top: 5%;
+  padding-left: 15%;
+}
+
+#fs-shops {
+  border-width: 4px;
+  width: 100px;
+  margin-left:auto;
+  margin-right:auto;
+
+}
+
+#donut-table {
+border-color: #000D0C;
+background-color: #000D0C;
+width: 90%;
+
+}
+#table-title {
+  color: #cce5ff;
+  font-family: "Special Elite", sans-serif;
+  font-size: 20px;
+}
+
+th {
+  color: #cce5ff;
+  font-family: "Special Elite", sans-serif;
+}
+
+td {
+  color: #cce5ff;
+  padding: 10px;
+  padding-right: 12px;
+  font-family: "Special Elite", sans-serif;
+}
+
+tr {
+  color: #cce5ff;
+  font-family: "Special Elite", sans-serif;
+  font-weight: bold;
+}
+
+
+/*form*/
+#new-shop-form{
+  border-color: #cce5ff;
+  border-width: 4px;
+  width: 20%;
+  display: inline-block;
+  position: relative;
+  padding-left: 2%;
+  z-index: 5;
+}
+
+#form-title {
+  color: #cce5ff;
+  font-family: "Special Elite", sans-serif;
+  font-size: 14px;
+}
+
+fieldset {
+  border-color: #cce5ff;
+  background-color: #000D0C;
+}
+
+label {
+  font-family: "Special Elite", sans-serif;
+  color: #54594C;
+  font-size: 14px;
+}
+
+input {
+  background-color: #ffffff;
+  border-color: #cce5ff;
+  display: block;
+}
+
+/*button*/
+button {
+  color: #000D0C;
+  background-color: #54594C;
+  border-color: #cce5ff;
+  font-family:"Special Elite", sans-serif;
+  font-weight: bold;
+  padding-top: 8px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+#add-new-shop:hover {
+ cursor: pointer;
+}
+
+.highlight:hover{
+  background-color: #BFB999;
+  color: #000D0C;
+}
+
+/*images*/
+.donut-picture {
+  position: absolute;
+  padding-left: 400px;
+
+}
+
+.picture {
+  position: absolute;
+  top: 1%;
+  right: 1%;
+  z-index: 11;
+  transition: transform 3s ease-in-out;
+}
+.picture:hover {
+  transform: rotateX(360deg);
+}
+
+/*layout*/
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 70px;
+  background-color: #cce5ff;
+  width: 100%;
+  z-index: 10;
+}
+
+
