@@ -1,1 +1,1 @@
-This is a model that shows how many donuts are sold on average each hour and each day in specific locations of Top Pot Donuts. This will allow the user to add a location or update an existing locations parameters. 	
+This is a model that shows how many donuts are sold on average each hour and each day in specific locations of Top Pot Donuts. This will allow the user to add a location or update an existing locations parameter. 	
