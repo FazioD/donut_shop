@@ -1,3 +1,4 @@
+//davide fazio//
 var Donutshop = function(locationName, minCustPerHr, maxCustPerHr, avDonutPerCust){
   this.locationName = locationName;
   this.minCustPerHr = minCustPerHr;
@@ -37,7 +38,7 @@ Donutshop.prototype.hourlyTotal = function() {
 //This method fills in the table
 Donutshop.prototype.render = function() {
       // append name
-      var table = document.getElementById("donut-table"); //This links to my table in my donut_shop.html file
+      var table = document.getElementById("donut-table"); //This links to my table in my index.html file
       var tableRow = document.createElement("tr"); //This creates a new table row in my table
       tableRow.id=this.locationName;
       tableRow.innerHTML = this.locationName; //This takes the location name and stages in tableRow variable
@@ -53,7 +54,7 @@ Donutshop.prototype.render = function() {
         this.sumDonutsPerDay += this.totalDonutsPerHr[i];
       }
       //append total
-      var tableData = document.createElement("td"); //This creates new table data
+      var tableData = document.createElement("td"); //This creates new talbe data
       tableData.innerHTML = this.sumDonutsPerDay; //This takes the sumDonutsPerDay and stages it in the var total
       tableRow.appendChild(tableData);  //puts total into cells
 }
@@ -99,6 +100,9 @@ var handelShopSubmit = function(){
       donutShopObjects[i] = newShop;
       donutShopObjects.splice(-1, 1);
       renderAll();
+
+
+
     }
   }
 }
@@ -115,5 +119,3 @@ capitolHill.render();
 southLakeUnion.render();
 wedgewood.render();
 ballard.render();
-
-

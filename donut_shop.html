@@ -4,16 +4,24 @@
     <head>
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatable" content="IE=edge">
-      <title>Top Pot Donuts </title>
+      <title>Donut Shop Algorithm!</title>
+      <link href="css/reset.css" />
+      <link href="donut_shop.css" type="text/css" rel="stylesheet" />
+      <link href="http://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet" type="text/css">
     </head>
 
-    <header>
-      <h1>Donut Production</h1>
+    <header>  
+      <h1>DELICIOUS TOP POT DONUTS</h1>
     </header>
 
     <body>
+
+      <div id="table-padding">
+        <fieldset id="fs-shops">
+          <legend id="table-title">Shop Locations</legend>
+          <table id="donut-table">
             <tr>
-              <th>Shop</th>
+              <th>Time</th>
               <th>7a</th>
               <th>8a</th>
               <th>9a</th>
@@ -28,9 +36,38 @@
               <th>6p</th>
               <th>Total</th>
             </tr>
+          </table><br />
+      </fieldset><br />
+    </div>
+//*davide fazio*//
+    <div class="donut-picture"><img src="file:/Users/davidfazio/CodeFellows/donut_shop/donut_shop_images/simpsons-donut.png"/>
+    </div>
+
+    <form id="new-shop-form">
+      <fieldset>
+        <legend id="form-title">Add/Update Location</legend>
+
+          <label for="location-name">Location: </label><br />
+          <input id="location-name" type="text"><br/>
+
+          <label for="min-cust">Min Cust: </label><br/>
+          <input id="min-cust" type="number"><br/>
+
+          <label for="max-cust">Max Cust: </label><br/>
+          <input id="max-cust" type="number"><br/>
+
+          <label for="av-donuts">Average # Donuts: </label><br/>
+          <input id="av-donuts" type="number"><br/>
+
+        <button id="add-new-shop" type="button" class="highlight">Create Submit/Update</button><br />
+      </fieldset>
+    </form>
+    <div class="picture" width = "25", height ="25">
+      <a href="http://www.toppotdoughnuts.com/" target="_blank"><img src="file:/Users/davidfazio/CodeFellows/donut_shop/donut_shop_images/TopPotLogoOpt.png" width = "60" height = "60" align = "right"></a>
+    </div>
 
     </body>
-
+   
     <script src="donut_shop.js"></script>
 
   </html>
