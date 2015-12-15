@@ -1,4 +1,4 @@
-//davide fazio//
+//davide fazio js for donut shop assignment//
 var Donutshop = function(locationName, minCustPerHr, maxCustPerHr, avDonutPerCust){
   this.locationName = locationName;
   this.minCustPerHr = minCustPerHr;
